@@ -1,7 +1,43 @@
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
 body{
 	background: url(../img/cartagena.jpg) no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 	font-family: 'Overpass Mono', monospace;
+}
+.cv, .gh, .lk, .wb{
+	cursor: pointer;
+	font-weight: bold;
+	padding: 20px;
+}
+.cv{
+	background: #ff0000;
+}
+.cv:hover{
+	background: #AB0202;
+}
+.gh{
+	background: #333333;
+}
+.gh:hover{
+	background: #272727;
+}
+.lk{
+	background: #0077B5;
+}
+.lk:hover{
+	background: #025D8E;
+}
+.wb{
+	background: #000000;
+}
+.wb:hover{
+	background: #131313;
 }
